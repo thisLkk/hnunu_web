@@ -1,0 +1,47 @@
+// 基础色
+$black: black;
+$white: white;
+$gray-1: #f7f8fa;
+$gray-2: #f2f3f5;
+$gray-3: #ebedf0;
+$gray-4: #dcdee0;
+$gray-5: #c8c9cc;
+$gray-6: #969799;
+$gray-7: #646566;
+$gray-8: #323233;
+$gray-9: #121c42;
+$cyan: rgba(225, 255, 251, .7);
+$blue: #355fff;
+$red: #ff483c;
+$yellow: #fff9c5;
+$dark-blue: #121c42;
+// 渐变色
+$gradient-dark-blue: linear-gradient(160deg, #071138, #1e317a);
+
+// 字体色
+$text-color: $gray-8;
+$active-color: $gray-9;
+$active-opacity: 0.7;
+$disabled-opacity: 0.5;
+$background-color: $gray-1;
+$text-link: $gray-7;
+
+// padding
+$padding-base: 4px;
+$padding-xs: $padding-base * 2;
+$padding-sm: $padding-base * 3;
+$padding-md: $padding-base * 4;
+$padding-lg: $padding-base * 6;
+$padding-xl: $padding-base * 10;
+
+// font
+$font-size-xs: 10px;
+$font-size-sm: 12px;
+$font-size-md: 14px;
+$font-size-lg: 16px;
+$font-size-xl: 18px;
+$font-size-24: 24px;
+$font-size-32: 32px;
+$font-size-48: 48px;
+$font-size-56: 56px;
+$font-size-64: 64px;
