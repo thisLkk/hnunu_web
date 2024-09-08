@@ -1,11 +1,11 @@
 <template>
   <div class="layout-default">
     <div class="layout-default-header">
-      <LayoutHeaderWeb id="header-web" />
-      <LayoutHeaderMobile id="header-mobile"/>
+      <LayoutHeaderWeb />
     </div>
-    <slot/>
-    <LayoutFooter/>
+    <slot />
+    <LayoutSocial />
+    <LayoutFooter />
   </div>
 </template>
 <script setup lang="ts">

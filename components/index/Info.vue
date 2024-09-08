@@ -21,12 +21,12 @@
     h1 {
       margin-bottom: auto;
       margin-top: auto;
-      padding: $padding-xs;
+      padding: $padding-xl;
       color: $gray-9;
       flex-direction: column;
       justify-content: center;
       font-family: DM Sans, sans-serif;
-      font-size: $font-size-48;
+      font-size: $font-size-32;
       font-weight: 600;
       line-height: 1.4em;
       text-decoration: none;

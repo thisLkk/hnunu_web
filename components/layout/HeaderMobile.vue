@@ -7,7 +7,6 @@
 .header {
   position: relative;
   top: auto;
-  z-index: 9999;
   display: flex;
   height: 80px;
   justify-content: space-between;

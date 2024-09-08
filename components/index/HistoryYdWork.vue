@@ -4,7 +4,8 @@
       <CommonHtmlObserver v-slot="slotProps" source="index-work" observer-id="work-yd-observe-wrap">
         <div id="work-yd-observe-wrap" :class="{'animation': slotProps.elIsShow}">
           <div class="work-info">
-            <h2>江苏盈达（2017.12~2018.12）</h2>
+            <h2>江苏盈达</h2>
+            <h3>(2017.12~2018.12)</h3>
             <ul>
               <li>初识江湖，不知门派</li>
               <li>我当像鸟飞往我的山</li>
@@ -20,6 +21,7 @@
 </template>
 <style lang="scss" scoped>
 .work-yd-wrap {
+  padding-bottom: 20%;
   overflow: hidden;
   background: linear-gradient(140deg, #fee, #fff);
   .work-yd-main {
@@ -29,14 +31,19 @@
       justify-content: space-between;
       flex-wrap: wrap;
       .work-info {
-        padding-bottom: 200px;
         opacity: 0;
         max-width: 500px;
+        min-width: 400px;
         h2 {
           font-size: $font-size-32;
           color: $black;
           font-weight: 700;
+        }
+        h3 {
           padding-bottom: 60px;
+          font-size: $font-size-24;
+          color: $black;
+          font-weight: 700;
         }
         ul {
           display: block;

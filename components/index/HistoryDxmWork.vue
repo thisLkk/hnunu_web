@@ -4,8 +4,9 @@
       <CommonHtmlObserver v-slot="slotProps" source="index-work" observer-id="work-dxm-observe-wrap">
         <div id="work-dxm-observe-wrap" :class="{'animation': slotProps.elIsShow}">
           <div class="work-info">
-            <h2>度小满（2018.12~2020.07）</h2>
-            <h3>助力小微企业，成就美好生活</h3>
+            <h2>度小满</h2>
+            <h3>(2018.12~2020.07)</h3>
+            <h4>助力小微企业，成就美好生活</h4>
             <ul>
               <li>梦起步的地方，有幸遇到很nice的他（她）同事</li>
               <li>公司健全的基础建设，标准化的流程制度，浓厚的技术氛围引领着我领略前端的全貌</li>
@@ -27,6 +28,7 @@
 <style lang="scss" scoped>
 .work-dxm-wrap {
   overflow: hidden;
+  padding-bottom: 20%;
   background: linear-gradient(140deg, #cca7f8, #aadaf1);
   .work-dxm-main {
     padding:  $padding-xl;
@@ -34,8 +36,8 @@
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
+      align-items: center;
       .work-info {
-        padding-bottom: 200px;
         opacity: 0;
         max-width: 500px;
         h2 {
@@ -44,9 +46,13 @@
           font-weight: 700;
         }
         h3 {
-          padding-left: 1em;
-          margin-bottom: 40px;
           font-size: $font-size-24;
+          color: $yellow;
+          font-weight: 700;
+        }
+        h4 {
+          margin-bottom: 40px;
+          font-size: $font-size-xl;
           color: $yellow;
           font-weight: 700;
         }
@@ -72,7 +78,8 @@
         position: relative;
         flex: 1;
         opacity: 0;
-        min-width: 200px;
+        width: 320px;
+        height: 320px;
         img {
           display: inline-block;
           width: 100%;
