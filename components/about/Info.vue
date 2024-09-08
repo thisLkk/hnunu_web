@@ -32,7 +32,7 @@
   }
   &-img {
     flex: 1;
-    min-width: 400px;
+    min-width: 370px;
     display: flex;
     align-items: center;
     justify-content: center;

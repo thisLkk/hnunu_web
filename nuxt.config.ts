@@ -3,8 +3,12 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: false },
   modules: ["@nuxt/eslint"],
-  eslint: {
-    // options here
+  app: {
+    head: {
+      meta: [
+        { name: 'viewport', content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' }
+      ]
+    },
   },
   css: ["~/assets/scss/reset.css"],
   vite: {
