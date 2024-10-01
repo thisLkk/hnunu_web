@@ -5,7 +5,9 @@ export default defineNuxtConfig({
   modules: ["@nuxt/eslint"],
   app: {
     head: {
+      title: '生活事儿禾努努帮',
       meta: [
+        { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' }
       ]
     },
